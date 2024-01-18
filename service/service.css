@@ -1,0 +1,540 @@
+
+.image{
+    
+    background-image:url(Images/tryimg.jpg);
+    background-size:cover;
+    width:2000px;
+    height:450px;
+    object-fit:cover; 
+  
+  }
+  
+  .blackLayer{
+  
+    width:100%;
+    height:100%;
+    background-color:#000;
+    opacity:0.5;
+  
+  }
+  
+  .write{
+   
+    color:white;
+    position: absolute;
+      top: 30%;
+      left: 20%;
+      font-size: 20px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      text-shadow: rgb(255, 0, 0) 3px 0 10px;
+  }
+
+  .writetwo
+  {
+    color:white;
+    position: absolute;
+      top: 35%;
+      left: 15%;
+      font-size: 50px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      text-shadow: rgb(255, 0, 0) 3px 0 10px;
+
+  }
+
+  .serviceimage
+  {
+    background-image:url(Images/tireblack.jpg);
+    background-size:cover;
+    width:700px;
+    height:500px;
+    object-fit:contain; 
+    position: absolute;
+    top: 55%;
+    left: 15%;
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    cursor: pointer;
+    
+  }
+  .serviceimage:hover {
+   
+    transform: translateY(-10px); 
+    background-image:url(Images/tire.jpg);
+  }
+
+  *
+  {
+    
+    margin: 0%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    
+  }
+  .ser{
+    background-image:url(Images/black.jpg);
+    background-size:cover;
+    width:2000px;
+    height:500px;
+    object-fit:cover; 
+    background-color: #000;
+   
+  }
+
+  .servicetext{
+    color:black;
+    position: absolute;
+      top: 75%;
+      left: 50%;
+      font-size: 15px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      box-sizing: content-box;
+      box-shadow: 0 0 5px 2px rgb(109, 109, 109);
+      background: rgb(245, 243, 243);
+      width: 550px;
+    height: 250px;
+    padding: 20px;
+   border-radius: 2%;
+   
+  }
+  h3{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-shadow: rgb(252, 170, 170) 3px 0 10px;
+   
+  }
+
+  .serviceimagetwo
+  {
+   background-image:url(Images/oiltwo.jpg);
+    background-size:cover;
+    width:800px;
+    height:450px;
+    object-fit:contain; 
+    position: absolute;
+    top: 130%;
+    left: 40%;
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    cursor: pointer;
+    
+  }
+  .serviceimagetwo:hover {
+   
+    transform: translateY(-10px); 
+    background-image:url(Images/oil.jpg);
+  }
+
+
+  .sertwo{
+    background-image:url(Images/black.jpg);
+    background-size:cover;
+    width:2000px;
+    height:500px;
+    object-fit:cover; 
+    background-color: #000;
+   
+  }
+
+  .servicetexttwo{
+    color:black;
+    position: absolute;
+      top: 140%;
+      left: 10%;
+      font-size: 15px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      box-sizing: content-box;
+      box-shadow: 0 0 5px 2px rgb(109, 109, 109);
+      background: rgb(245, 243, 243);
+      width: 550px;
+      height: 250px;
+    padding: 20px;
+   border-radius: 2%;
+
+   
+  }
+
+  .serviceimagethree
+  {
+   background-image:url(Images/carwashtwo.jpg);
+    background-size:cover;
+    width:800px;
+    height:450px;
+    object-fit:contain; 
+    position: absolute;
+    top: 200%;
+    left: 10%;
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    cursor: pointer;
+    
+  }
+  .serviceimagethree:hover {
+   
+    transform: translateY(-10px); 
+    background-image:url(Images/carwash.jpg);
+  }
+
+
+  .serthree{
+    background-image:url(Images/black.jpg);
+    background-size:cover;
+    width:2000px;
+    height:500px;
+    object-fit:cover; 
+    background-color: #000;
+   
+  }
+
+  .servicetextthree{
+    color:black;
+    position: absolute;
+      top: 210%;
+      left: 50%;
+      font-size: 15px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      box-sizing: content-box;
+      box-shadow: 0 0 5px 2px rgb(109, 109, 109);
+      background: rgb(245, 243, 243);
+      width: 550px;
+      height: 250px;
+    padding: 20px;
+   border-radius: 2%;
+
+   
+  }
+
+  .button {
+	display: inline-block;
+	padding: 10px 1.25rem;
+	border-radius: 10rem;
+	color: #fefdfd;
+	text-transform: uppercase;
+	font-size: 1rem;
+	text-decoration: none;
+	transition: all .3s;
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+  
+	&:after {
+		content: '';
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: crimson;
+		border-radius: 10rem;
+		z-index: -2;
+	}
+	
+	&:hover {
+		color: #170101;
+		&:before {
+			width: 100%;
+		}
+	}
+}
+  
+p{
+  font-family: 'Times New Roman', Times, serif;
+  text-align: left;
+  color: grey;
+  font-size: 18px;
+  
+}
+
+.serviceimagefour
+  {
+   background-image:url(Images/carairconditioningcoverbw.jpg);
+    background-size:cover;
+    width:800px;
+    height:450px;
+    object-fit:contain; 
+    position: absolute;
+    top: 270%;
+    left: 40%;
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    cursor: pointer;
+    
+  }
+  .serviceimagefour:hover {
+   
+    transform: translateY(-10px); 
+    background-image:url(Images/carairconditioningcover.jpg);
+  }
+
+
+  .serfour{
+    background-image:url(Images/black.jpg);
+    background-size:cover;
+    width:2000px;
+    height:500px;
+    object-fit:cover; 
+    background-color: #000;
+   
+  }
+
+  .servicetextfour{
+    color:black;
+    position: absolute;
+      top: 280%;
+      left: 10%;
+      font-size: 15px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      box-sizing: content-box;
+      box-shadow: 0 0 5px 2px rgb(109, 109, 109);
+      background: rgb(245, 243, 243);
+      width: 550px;
+      height: 250px;
+    padding: 20px;
+   border-radius: 2%;
+
+   
+  }
+
+  .serviceimagefive
+  {
+   background-image:url(Images/engineworkbw.jpg);
+    background-size:cover;
+    width:800px;
+    height:450px;
+    object-fit:contain; 
+    position: absolute;
+    top: 340%;
+    left: 10%;
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    cursor: pointer;
+    
+  }
+  .serviceimagefive:hover {
+   
+    transform: translateY(-10px); 
+    background-image:url(Images/enginework.jpg);
+  }
+
+
+  .serfive{
+    background-image:url(Images/black.jpg);
+    background-size:cover;
+    width:2000px;
+    height:500px;
+    object-fit:cover; 
+    background-color: #000;
+   
+  }
+
+  .servicetextfive{
+    color:black;
+    position: absolute;
+      top: 350%;
+      left: 50%;
+      font-size: 15px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      box-sizing: content-box;
+      box-shadow: 0 0 5px 2px rgb(109, 109, 109);
+      background: rgb(245, 243, 243);
+      width: 550px;
+      height: 250px;
+    padding: 20px;
+   border-radius: 2%;
+
+   
+  }
+
+  .serviceimagesix
+  {
+   background-image:url(Images/cardiagnosticsbw.jpg);
+    background-size:cover;
+    width:800px;
+    height:450px;
+    object-fit:contain; 
+    position: absolute;
+    top: 410%;
+    left: 40%;
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    cursor: pointer;
+    
+  }
+  .serviceimagesix:hover {
+   
+    transform: translateY(-10px); 
+    background-image:url(Images/cardiagnostics.jpg);
+  }
+
+
+  .sersix{
+    background-image:url(Images/black.jpg);
+    background-size:cover;
+    width:2000px;
+    height:500px;
+    object-fit:cover; 
+    background-color: #000;
+   
+  }
+
+  .servicetextsix{
+    color:black;
+    position: absolute;
+      top: 420%;
+      left: 10%;
+      font-size: 15px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      box-sizing: content-box;
+      box-shadow: 0 0 5px 2px rgb(109, 109, 109);
+      background: rgb(245, 243, 243);
+      width: 550px;
+      height: 250px;
+    padding: 20px;
+   border-radius: 2%;
+
+   
+  }
+
+
+ 
+      box-sizing:border-box
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+background-color: #555;
+color: white;
+padding: 16px 20px;
+border: none;
+cursor: pointer;
+opacity: 0.8;
+position: fixed;
+bottom: 23px;
+right: 28px;
+width: 280px;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+display: none;
+position: fixed;
+bottom: 0;
+right: 15px;
+border: 3px solid #f1f1f1;
+z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+max-width: 300px;
+padding: 10px;
+background-color: white;
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+width: 100%;
+padding: 15px;
+margin: 5px 0 22px 0;
+border: none;
+background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+background-color: #ddd;
+outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+background-color: #04AA6D;
+color: white;
+padding: 16px 20px;
+border: none;
+cursor: pointer;
+width: 100%;
+margin-bottom:10px;
+opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+opacity: 1;
+}
+body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('your-background-image.jpg'); /* Add your background image URL */
+      background-size: cover;
+      background-position: center;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+  }
+
+  .form-container {
+      background-color: rgba(0, 0, 0, 0.8);
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+      width: 83%;
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+  }
+
+  form {
+      display: flex;
+      flex-direction: column;
+      align-items:left;
+      width: 60%;
+  }
+
+  label {
+      margin-top: 0px;
+  }
+
+  input, select, textarea {
+      padding: 8px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      width: 100%;
+  }
+
+  .location-container {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+  }
+
+  .location-input {
+      position: relative;
+      display: flex;
+  }
+
+  input#location {
+      padding-right: 30px; /* Space for the icon */
+  }
+
+  button.location-button {
+      background: none;
+      border: none;
+      cursor: pointer;
+      margin-left: -30px; /* Adjust the margin based on your design */
+  }
+
+  button {
+      padding: 10px;
+      background-color: #e74c3c;
+      color:black;
+      border: none;
+      cursor: pointer;
+      border-radius: 4px;
+      transition: background-color 0.3s, transform 0.3s;
+  }
+
+  button:hover {
+      
+      color: black;
+      transform: translateY(-5px);
+  }
